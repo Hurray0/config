@@ -25,6 +25,7 @@ config_tmux()
 
 run()
 {
+  config_zsh
   config_vim
   config_tmux
 }
