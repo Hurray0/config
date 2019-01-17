@@ -9,6 +9,7 @@ set expandtab " 切换tab成space
 set smartindent " 智能缩进
 set showmatch " 括号匹配
 set undofile " 无限undo
+set nu " number 配合rnu显示当前行绝对行号
 set rnu " relativenumber 相对行号
 set colorcolumn=85 " 85行彩色显示
 set iskeyword-=_ " _ 不算词

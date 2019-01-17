@@ -10,9 +10,9 @@ config_vim()
   cp .vimrc ~/
   mkdir -p ~/.vim/bundle/
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  vim +PluginInstall +qall
   mkdir -p ~/.vim/bundle/vim-colors-solarized/colors/
   cp ./vim/hurray.vim ~/.vim/bundle/vim-colors-solarized/colors/
-  vim +PluginInstall +qall
 }
 
 config_tmux()
