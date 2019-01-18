@@ -233,3 +233,6 @@ export PATH=$PATH:${ANT_HOME}/bin
 # Hurray
 alias s_ncsg='unset PYTHONPATH; sshuttle -r gh01-pub 10.18.0.0/16'
 alias s_megvii='unset PYTHONPATH; sshuttle -r rjmp 10.201.106.1/20'
+
+# zsh vi mode
+set -o vi
