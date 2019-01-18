@@ -21,6 +21,7 @@ config_vim()
   ln -s `pwd`/.vimrc ~/
   mkdir -p ~/.vim/bundle/
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  vim +PluginInstall +qall
   mkdir -p ~/.vim/bundle/vim-colors-solarized/colors/
   ln -s `pwd`/vim/hurray.vim ~/.vim/bundle/vim-colors-solarized/colors/
   vim +PluginInstall +qall
@@ -36,7 +37,7 @@ config_tmux()
 
 run()
 {
-  counfig_zsh
+  config_zsh
   config_vim
   config_tmux
 }
