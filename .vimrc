@@ -69,11 +69,12 @@ nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
 
 " solarized
 Plugin 'altercation/vim-colors-solarized'
-" syntax enable
+syntax enable
 " colorscheme solarized
 " set background=dark
 " let g:solarized_termcolors=256
 colorscheme hurray
+"colorscheme solarized
 let g:solarized_termtrans  = 1
 let g:solarized_termcolors = 256
 let g:solarized_contrast   = "high"
